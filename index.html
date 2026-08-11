@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>Car Locator Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --surface: #ffffff;
+      --text: #1f2937;
+      --muted: #5b6472;
+      --border: #d7dee8;
+      --accent: #1f6f43;
+      --accent-soft: #e7f4ec;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #eef3f7 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }
+
+    .hero {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+      margin-bottom: 20px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(30px, 4vw, 44px);
+      line-height: 1.15;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 15px;
+      margin: 0;
+    }
+
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 24px;
+      margin-top: 16px;
+    }
+
+    h2 {
+      margin: 28px 0 12px;
+      font-size: 22px;
+    }
+
+    h3 {
+      margin: 18px 0 8px;
+      font-size: 17px;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    ul {
+      margin: 0 0 14px 22px;
+      padding: 0;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    .callout {
+      border-left: 4px solid var(--accent);
+      background: #f2fbf6;
+      padding: 14px 16px;
+      border-radius: 12px;
+      margin: 16px 0;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .footer {
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 18px;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    code {
+      background: #eef2f6;
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="eyebrow">Privacy Policy</div>
+      <h1>Car Locator Privacy Policy</h1>
+      <p class="meta">Effective date: August 11, 2026</p>
+      <p class="meta">This privacy policy explains how the Car Locator app handles information on your device.</p>
+    </section>
+
+    <section class="panel">
+      <p>
+        Car Locator is designed to save your parking location when your car's Bluetooth disconnects.
+        The app works primarily on your device and is built to store parking data locally so you can find your car later.
+      </p>
+
+      <div class="callout">
+        <strong>Important:</strong> This policy is written to match the app's current code behavior. If you add analytics, ads, cloud sync, or account features later, you should update this policy before publishing.
+      </div>
+
+      <h2>1. Information We Collect</h2>
+      <p>Depending on how you use the app, Car Locator may access and store the following information:</p>
+      <ul>
+        <li><strong>Bluetooth information</strong>: the names and MAC addresses of paired Bluetooth devices on the device, used so you can choose which car to watch.</li>
+        <li><strong>Location information</strong>: the app captures your device's GPS coordinates when a watched Bluetooth device disconnects or when you manually save a parking spot.</li>
+        <li><strong>Saved parking details</strong>: latitude, longitude, time, and the source of the save action, stored locally on your phone.</li>
+        <li><strong>Notification preference</strong>: whether parking-save notifications are enabled.</li>
+        <li><strong>Widget data</strong>: the last saved parking spot and a local map image used by the home screen widget.</li>
+        <li><strong>Battery optimization preference</strong>: whether you allowed the app to be ignored by battery optimizations to support background Bluetooth monitoring.</li>
+      </ul>
+
+      <h2>2. How We Use Information</h2>
+      <p>Car Locator uses the information above only to provide app features:</p>
+      <ul>
+        <li>Monitor a selected paired Bluetooth device so the app can detect when your car disconnects.</li>
+        <li>Capture your location at the moment of disconnect so the parking spot can be saved.</li>
+        <li>Show the saved parking spot in the app and on the optional home screen widget.</li>
+        <li>Send an optional local notification when a parking spot is saved.</li>
+        <li>Keep the background watcher running more reliably when you allow the app to ignore battery optimizations.</li>
+      </ul>
+
+      <h2>3. Background Location and Bluetooth</h2>
+      <p>
+        The app uses Bluetooth and background location permissions to detect when a selected car Bluetooth device disconnects, even if the app is not open.
+        When that happens, the app requests a high-accuracy location fix and saves the parking position locally.
+      </p>
+      <p>
+        The app does not continuously track your location on a timer. Location is requested when needed to save a parking spot, and the background watcher is used to keep Bluetooth disconnect detection reliable.
+      </p>
+
+      <h2>4. Sharing and Disclosure</h2>
+      <p>We do not sell your personal information.</p>
+      <p>We do not send your parking location or Bluetooth data to our own servers.</p>
+      <p>However, some information may be shared automatically with platform services or third parties as needed to provide the app:</p>
+      <ul>
+        <li><strong>Android system services</strong>: used for Bluetooth access, location access, notifications, widgets, and background processing.</li>
+        <li><strong>OpenStreetMap tile servers</strong>: when the app creates the local widget map image, it requests map tiles from <code>tile.openstreetmap.org</code>. Those requests are sent directly from your device to OpenStreetMap so the map image can be rendered.</li>
+      </ul>
+
+      <h2>5. Data Storage and Retention</h2>
+      <p>The app stores your data locally on the device in app storage and shared preferences. This includes the last saved parking spot and widget data.</p>
+      <p>Your data remains on your device until you clear the app data, uninstall the app, or overwrite the saved parking spot with a new one.</p>
+
+      <h2>6. Your Choices and Controls</h2>
+      <ul>
+        <li>You can choose which paired Bluetooth device the app watches.</li>
+        <li>You can disable parking-save notifications in the app settings.</li>
+        <li>You can remove the battery optimization exemption from Android settings.</li>
+        <li>You can revoke Bluetooth or location permissions in Android settings, though this may prevent background parking detection from working.</li>
+        <li>You can clear app data or uninstall the app to delete locally stored parking information.</li>
+      </ul>
+
+      <h2>7. Permissions We Request</h2>
+      <p>The app may request the following permissions:</p>
+      <ul>
+        <li><strong>Bluetooth</strong>: to view paired devices and detect disconnect events.</li>
+        <li><strong>Location</strong>: to capture your parking position when your car disconnects and when you manually save a spot.</li>
+        <li><strong>Background location</strong>: so the app can save parking spots even when it is not open.</li>
+        <li><strong>Notifications</strong>: to alert you when a parking spot is saved.</li>
+        <li><strong>Foreground service / battery optimization related access</strong>: to help the background watcher keep running reliably on Android.</li>
+        <li><strong>Boot completed</strong>: so the background watcher can restart after the device reboots, if you have selected a car to watch.</li>
+      </ul>
+
+      <h2>8. Security</h2>
+      <p>We use Android's app sandbox and local storage mechanisms to keep the data on your device. No security method is perfect, but the app is designed to minimize data exposure by avoiding unnecessary server-side storage.</p>
+
+      <h2>9. Children's Privacy</h2>
+      <p>Car Locator is not intended for children under 18, and we do not knowingly collect personal information from children under 18.</p>
+
+      <h2>10. Changes to This Policy</h2>
+      <p>We may update this privacy policy from time to time. If we make material changes, we will update the effective date on this page.</p>
+
+      <h2>11. Contact</h2>
+      <p>
+        If you have questions about this privacy policy, contact the developer at:
+        <strong>blueprogramming0@gmail.com</strong>
+      </p>
+
+      <p class="footer">
+        This privacy policy is provided for the current version of the Car Locator app and is intended for Google Play Store publishing.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
